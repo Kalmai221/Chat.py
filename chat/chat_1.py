@@ -1,5 +1,6 @@
 import time
 import sys
+from progress.bar import Bar
 
 time.sleep(2)
 print("Before we begin...")
@@ -10,6 +11,11 @@ print("Please try and use Capitals Appropriately!")
 time.sleep(1)
 print("This chat is protected with a Copyright License!")
 time.sleep(1)
+bar = Bar('Loading Copyright Licence...', max=500)
+for i in range(500):
+    # Do some work
+    bar.next()
+bar.finish()
 print(sys.copyright) 
 name = input("What is your name? ")
 time.sleep(1)
@@ -35,6 +41,12 @@ perms = input("Do you give concent to continue? ")
 if perms == "Yes":
     time.sleep(1)
     print("Great!")
+    time.sleep(1)
+    bar = Bar('Loading Form...', max=500)
+    for i in range(500):
+    # Do some work
+        bar.next()
+    bar.finish()
     time.sleep(1)
     import chat.chat_2 as chat_2
 elif perms == "No":

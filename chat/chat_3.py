@@ -1,4 +1,5 @@
 import time
+import sys
 from chat.chat_2 import age
 
 edu = input("What education are you currently in? ")
