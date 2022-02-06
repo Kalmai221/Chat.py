@@ -9,15 +9,37 @@ if edu == "Sixth Form":
         print("Your old enough for Sixth Form!")
         year = input("What Year Group are you in? ")
         if year == "Year 12":
-            time.sleep(1)
+            if age == 16 or age == 17:
+                time.sleep(1)
             print("First year of Sixth Form")
             time.sleep(1)
             print("Hope your enjoying it!")
+            else:
+                time.sleep(1)
+                print("You are not at the right age to be in that year group!")
+                time.sleep(1)
+                print("As you have been lying... ")
+                time.sleep(1)
+                print("This form will now close!")
+                time.sleep(1)
+                print("Goodbye!")
+                sys.exit()
         elif year == "Year 13":
-            time.sleep(1)
+            if age == 17 or age == 18:
+                time.sleep(1)
             print("Second year of Sixth Form")
             time.sleep(1)
             print("Hope your having fun!")
+            else:
+                 time.sleep(1)
+                 print("You are not at the right age to be in that year group!")
+                 time.sleep(1)
+                 print("As you have been lying... ")
+                 time.sleep(1)
+                 print("This form will now close!")
+                 time.sleep(1)
+                 print("Goodbye!")
+                 sys.exit()
         elif year == "Year 14":
             time.sleep(1)
             print("Last year of Sixth Form")
