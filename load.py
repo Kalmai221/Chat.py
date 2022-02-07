@@ -13,11 +13,19 @@ print("Checking version... ")
 time.sleep(3)
 print("Running on version " + sys.version)
 time.sleep(2)
-print("Checking Code Terminal")
+bar = Bar('Checking Code Terminal', max=500)
+for i in range(500):
+    # Do some work
+    bar.next()
+bar.finish()
 time.sleep(2)
 print("Running on " + sys.platform)
 time.sleep(2)
-print("Verifying Operating System...")
+bar = Bar('Verifying Operating System...', max=500)
+for i in range(500):
+    # Do some work
+    bar.next()
+bar.finish()
 time.sleep(2)
 print("Operating System " + sys.platform + " verified")
 time.sleep(2)
