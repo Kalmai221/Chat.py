@@ -3,7 +3,6 @@ import time
 import sys
 from progress.bar import Bar
 
-
 bar = Bar('Loading Python', max=500)
 for i in range(500):
     # Do some work
@@ -22,7 +21,7 @@ print("Verifying Operating System...")
 time.sleep(2)
 print("Operating System " + sys.platform + " verified")
 time.sleep(2)
-bar = Bar('Loading settings...', max=500)
+bar = Bar('Loading Settings...', max=500)
 for i in range(500):
     # Do some work
     bar.next()
