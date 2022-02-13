@@ -74,3 +74,7 @@ if edu == "Sixth Form":
         time.sleep(1)
         print("Goodbye!")
         sys.exit()
+elif edu == "Apprenticeship":
+    if age <= 19 and age >= 16:
+        time.sleep(1)
+        print("Your old enough for an Apprenticeship")
