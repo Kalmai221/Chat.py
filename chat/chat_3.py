@@ -11,9 +11,9 @@ if edu == "Sixth Form":
         if year == "Year 12":
             if age == 16 or age == 17:
                 time.sleep(1)
-            print("First year of Sixth Form")
-            time.sleep(1)
-            print("Hope your enjoying it!")
+                print("First year of Sixth Form")
+                time.sleep(1)
+                print("Hope your enjoying it!")
             else:
                  time.sleep(1)
                  print("You are not at the right age to be in that year group!")
@@ -27,9 +27,9 @@ if edu == "Sixth Form":
         elif year == "Year 13":
             if age == 17 or age == 18:
                 time.sleep(1)
-            print("Second year of Sixth Form")
-            time.sleep(1)
-            print("Hope your having fun!")
+                print("Second year of Sixth Form")
+                time.sleep(1)
+                print("Hope your having fun!")
             else:
                  time.sleep(1)
                  print("You are not at the right age to be in that year group!")
