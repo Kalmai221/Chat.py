@@ -64,7 +64,7 @@ if edu == "Sixth Form":
             print("This form will now end")
             time.sleep(1)
             print("Goodbye!") 
-            sys.exit
+            sys.exit() 
     else:
         print("You are not at the right age to be at Sixth Form")
         time.sleep(1)
